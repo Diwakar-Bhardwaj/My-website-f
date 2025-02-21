@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+body{
+    background-color:#778da9;
+    
+    
+}
+#container{
+    /* background-color: #231f1e; */
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    
+}
+.btn{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    font-size: larger;
+    background-color: #495057;
+    border: none;
+    color:rgba(255,255,255,0.7);
+}
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+#button{
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    width: 300px;
+    background-color: #0d1321;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+    
+#zero{
+    width: 120px;
+    border-radius: 5rem;
+}
+#ans{
+    color:rgba(255,255,255,0.9);
+    margin-bottom:10px ;
+    padding-right: 10px;
+    margin-top: 50px;
+    font-size:1.5rem;
+    text-align: end;
+    width: 270px;
+    height: 50px;
+    background-color: #495057;
+    border: none;
+    border-radius: 5px;
+}
+#add,#sub,#mul,#divide,#eql{
+    background-color: #f7b801;
+}
+#ac,#del,#per{
+    background-color: #ced4da;
+    opacity: 0.8;
+    color:black;
+}
