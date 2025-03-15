@@ -1,0 +1,404 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    position: sticky ;
+    top: 0px;
+    /* width: 100vw; */
+}
+body{
+    background-color: #f8edeb;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-weight: 100;
+}
+ul{
+    display: flex;
+    
+     width: 70%; 
+    list-style: none;
+    margin-left: 10%;
+}
+img{
+
+    /* box-shadow: 0px 0px 15px 5px #495057; */
+}
+li{
+    margin-right: 10%;
+    padding: 7px; 
+    border-radius: 5px;   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit:cover ;
+    margin-left: 10px;
+}
+.rightdiv{
+       background-color: #001233;
+       width: 100%;
+       height: 60px;
+       display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.searchbox{
+   width:10% ; 
+   border: 1px solid white;
+   border-radius: 5px;
+   padding: 0.8rem 0.2rem;
+   color:white;
+}
+.container{
+    /* border: 2px solid black; */
+    margin:auto;
+    max-width: 85%;
+    padding-top: 20px;
+}
+.rightimg img{
+    width: 500px;
+    height:300px ;   
+}
+#about{
+    height: 400px;
+    object-fit: contain;
+}
+.intro {
+    max-width: 30%;  
+    
+}
+.sec1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    font-size: 2.5rem;
+}
+.subhead{
+    font-size: 2rem;
+    opacity: 0.83;
+}
+.new{
+    width:11em;
+    background-color: blue;
+    text-align: center;
+    margin-top: 4em;
+    border: none;
+}
+.new2{
+    width: 25%;
+    background-color: blue;
+    text-align: center;
+    width:11em;
+    border: none;
+}
+span{
+margin-right: 8rem;
+font-size: 1.5rem;
+opacity: 0.8;
+}
+.id{
+    height: 200px;
+    /* border: 2px black solid; */
+    padding-left: 10%;
+}
+.sec2{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-bottom: 5rem;
+}
+.subhead2{   
+    font-size: 1.1rem;
+    font-family:sans-serif;
+}
+.subhead3{
+    font-size: 1.1rem;
+    font-family:sans-serif;
+    margin-bottom: 15px;
+}
+.intro2{
+    max-width: 50%;
+    margin-left: 1em;
+}
+.intro3{ 
+    max-width: 50%;
+    margin-right:1em;
+}
+.backend{
+    display: flex;
+    padding-top: 3rem;
+}
+.frontend{
+    display: flex;
+    padding-top: 3rem;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+.blogleft{
+   
+    background-color: rgb(34, 34, 174);
+}
+.swapright{   
+    background-color:black;
+    color: white;
+}
+
+.article div{
+    /* width: 50%; */
+    height: 100%;
+    /* border: 2px black solid; */
+    padding: 10px 0px;
+    
+}
+    .article{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+.content{
+    max-width: 70%;
+    padding-top: 10%;
+    /* align-items: end; */
+    color: white;
+    margin-left: 30%;
+}
+
+.content p{
+    margin-top: 20px;
+}
+.articlebtn{
+    padding: 10px;
+    margin-top: 20px;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.content2{
+    max-width: 70%;
+    padding-top: 10%;  
+    margin-left: 20px;
+}
+.content2 p{
+     margin-top: 20px;
+}
+#js{
+    /* background-color: aqua; */
+    color: black;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.swap{
+    display: flex;
+    /* padding-right:3%; */
+    height: 200px;
+    width: 20%;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+}
+.swap div{
+    margin:0.8em;
+}
+.swapicon{
+    margin: 4em 0em 0em 2em;
+}
+.swap2{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 15px 5px #495057;
+}
+.swap1,.swap3{
+    background-color: #ced4da;
+    box-shadow: 0px 0px 15px 5px black;
+}
+footer{
+    background-color:#b1a7a6;
+    margin-top: 15px;
+}
+.footer{
+    padding-top: 1.5rem;
+    /* height: 200px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border: 2px black solid; */
+}
+.footer div{
+    /* border: 2px black solid; */
+    margin-left: 2em;
+}
+.spanf{
+    margin-right: 1.4rem;
+    opacity: 0.6;
+}
+.help{
+    padding-top: 2rem;
+}
+#blue{
+    color: rgb(58, 58, 171);
+    font-size: 1.3rem;
+}
+.sec5{
+    padding-top:5rem;
+}
+#copyright{
+    display:flex;
+    padding: 5px;
+}
+.rightdiv ul li:hover{
+    background-color: #1d345d;
+}
+#checkbtn{
+    font-size: 2rem;
+    line-height:60px ;
+    color: white;
+    display: none;
+}
+
+
+@media(max-width:1369px){
+    #checkbtn{
+     display: block;
+     position: absolute;
+     right: 10px;
+     float: right;
+    } 
+
+    
+    
+    .rightdiv ul{
+        display: block;
+        background-color: black;
+        /* padding:1%; */
+        height: 50vh;
+        width: 50vw;
+        position: fixed;
+        top: 59px;
+        right: -50%;
+        
+    }
+    .rightdiv  li{
+        display: block;
+        color: white;
+         /* margin-bottom:1em ; */
+         font-size: 1.2rem;
+        
+    }
+    #navsch{
+        position: absolute;
+        right: 100px;
+        width: 10em;
+    }
+    .swap{
+        width: 30%;
+    }
+
+ }
+
+ @media(max-width:935px){
+    .sec1{
+        justify-content: space-around;
+    }
+    .rightimg img{
+        width: 400px;
+        height: 300px;
+    }
+    span{
+        margin-right: 2rem;
+    }
+    .swapicon {
+        margin: 2em 0em 0em 0.2em;
+    }
+    .swap div {
+        margin: 0.2em;
+    }
+
+ }
+ @media(max-width:700px) {
+    .rightimg img{
+        width: 380px;
+        height: 250px;
+    }
+    .sec1{
+        display: block;
+    }
+    .intro {
+        max-width: 100%;
+    }
+    .intro2 {
+        max-width: 100%;       
+    }
+    .box{
+        justify-content: space-between;
+    }
+    .swap{
+        display: block;
+        margin: 0.2em;
+        height: 250px;
+        width: 30%;
+    }
+    .backend{
+        display: block;
+    }
+    .frontend{
+        display: block;
+    }
+    .swapicon{
+        margin: 3em 0em 0em 0.2em;
+    }
+    .intro3{
+        max-width: 100%;
+    }
+    .id{
+        display: grid;
+            }
+            .new{
+                margin-bottom: 1em;
+                
+            }
+ }
+ @media(max-width:480px){
+    
+    .rightimg img{
+        width: 260px;
+        height: 220px;
+    }          
+    .footer{
+        grid-template-columns: auto auto;
+        width: 100vw;
+    }
+    .footer div{
+        margin-left: 1.2em;
+    }
+    .content{
+        max-width: 100%;
+        margin-left: 8%;
+    } 
+    .swapicon{
+        margin: 1em 0em 0em 0.2em;
+    }  
+    span{
+        font-size: 1.2rem;
+    }
+    .container{
+        max-width: 100%;
+    }
+ }

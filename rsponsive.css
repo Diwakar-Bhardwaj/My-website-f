@@ -1,0 +1,38 @@
+@media(max-width:1369px){
+    #checkbtn{
+     display: block;
+     position: absolute;
+     right: 10px;
+     float: right;
+    } 
+
+    
+    
+    .rightdiv ul{
+        display: block;
+        background-color: black;
+        padding:60px;
+        height: 50vh;
+        width: 50vw;
+        position: fixed;
+        top: 59px;
+        right: -50%;
+        
+    }
+    .rightdiv  li{
+        display: block;
+        color: white;
+         margin-bottom:1em ;
+         font-size: 2em;
+        
+    }
+    #navsch{
+        position: absolute;
+        right: 100px;
+        width: 10em;
+    }
+
+
+
+
+ }
