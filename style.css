@@ -274,7 +274,7 @@ footer{
 }
 
 
-@media(max-width:1369px){
+@media(max-width:1080px){
     #checkbtn{
      display: block;
      position: absolute;
