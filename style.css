@@ -389,7 +389,7 @@ footer{
         margin-left: 1.2em;
     }
     .content{
-        max-width: 100%;
+        max-width: 95%;
         margin-left: 8%;
     } 
     .swapicon{
@@ -400,5 +400,6 @@ footer{
     }
     .container{
         max-width: 100%;
+        padding-left:3%;
     }
  }
